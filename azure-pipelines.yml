@@ -4,10 +4,8 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
 
 pr:
-  branches:
-    include:
-      - master
-      
+- master
+
 trigger:
 - master
 
